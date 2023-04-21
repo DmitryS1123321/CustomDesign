@@ -47,14 +47,23 @@ FORM, IMG, TABLE, TD, TH, TR, DIV, footer, header {
 	border: 0;
 	box-sizing: border-box;
 }
-A {
-	color:#fff;
-	text-decoration:none;
+
+header .menu A{
+    color:#fff;
+    text-decoration:none;
+    background-image: linear-gradient(#9487b7, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+    
 }
-	A:hover, A.active {
-		color:#fff;
-		text-decoration:underline;
-	}
+    .menu a:hover, .menu A {
+    color:#fff;
+    text-decoration:none;
+    background-size: 100% 2px;
+       }
+
 NOBR { white-space:nowrap; }
 
 P { margin:1em 0 }
