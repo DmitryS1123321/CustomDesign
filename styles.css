@@ -116,7 +116,7 @@ header {
 	width:220px;
 	height:100%;
 	padding:15px;
-	background:linear-gradient(5deg, #3a3a3a, #7851a9);
+	background:linear-gradient(5deg, #3a3a3a, #242424);
 	
 }
 #close { width:25px; padding:15px 0; cursor:pointer; }
